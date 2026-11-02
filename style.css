@@ -19,3 +19,7 @@ a{color:var(--accent)}
 .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:12px 22px;border-radius:999px;font-weight:600;margin:6px}
 .btn.ghost{background:transparent;border:1px solid #3a3f6e;color:var(--text)}
 footer{margin-top:64px;color:var(--muted);font-size:14px;text-align:center}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:24px}
+.features .card{margin:0}
+.features h3{margin-top:0}
+.center{text-align:center}
